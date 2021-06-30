@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
-  --main-color: hotpink;
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
 }
 
 body {
@@ -9,10 +12,7 @@ body {
   margin: 0px;
   font-family: "Poppins", sans-serif;
   content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
+
   width: 100%;
   z-index: -1;
   /* background: var(--main-color); */
@@ -38,7 +38,7 @@ body {
   z-index: 3;
   width: 70%;
   margin: 0 auto;
-  height: 300px;
+  height: 100%;
   padding: 2em;
 }
 
@@ -77,6 +77,23 @@ body {
 #number :focus {
   outline: none;
 }
-button{
-  background-color: #37AF65;
+button {
+  background-color: #37af65;
+  width: 95%;
+  padding: 1em 0;
+  color: white;
+  height: 3em;
+  border: none;
+  margin: 1em;
+  font-size: 1rem;
+  margin-left: -0.1em;
+}
+
+select {
+  width: 70%;
+  height: 2.5em;
+  border: none;
+}
+select:focus {
+  outline: none;
 }
