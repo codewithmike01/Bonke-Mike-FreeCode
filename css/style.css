@@ -77,3 +77,6 @@ body {
 #number :focus {
   outline: none;
 }
+button{
+  background-color: #37AF65;
+}
